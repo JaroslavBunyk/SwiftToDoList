@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--ToDoList-->
+        <!--Title-->
         <scene sceneID="VKk-YR-9ah">
             <objects>
                 <tableViewController id="jb8-lh-Eiu" customClass="ToDoLIstViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="jb8-lh-Eiu" id="99B-0R-yMr"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ToDoList" id="3bs-Kt-C7D"/>
+                    <navigationItem key="navigationItem" title="Title" id="O8m-Hz-7sZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="fvG-HT-Uyt">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="jb8-lh-Eiu" id="gG8-OU-qvr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tOH-if-xq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
