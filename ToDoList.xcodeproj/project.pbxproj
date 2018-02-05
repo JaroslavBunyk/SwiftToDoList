@@ -12,8 +12,8 @@
 		D168A3BE2025AE30007EA6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D168A3BC2025AE30007EA6BA /* Main.storyboard */; };
 		D168A3C02025AE30007EA6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D168A3BF2025AE30007EA6BA /* Assets.xcassets */; };
 		D168A3C32025AE30007EA6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D168A3C12025AE30007EA6BA /* LaunchScreen.storyboard */; };
-		D168A3CB2025D359007EA6BA /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168A3CA2025D359007EA6BA /* ItemModel.swift */; };
 		D17562F920284885005A9BEB /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D17562F720284885005A9BEB /* DataModel.xcdatamodeld */; };
+		D17562FD20287A98005A9BEB /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17562FC20287A98005A9BEB /* CategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		D168A3BF2025AE30007EA6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D168A3C22025AE30007EA6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D168A3C42025AE30007EA6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D168A3CA2025D359007EA6BA /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		D17562F820284885005A9BEB /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		D17562FC20287A98005A9BEB /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +88,7 @@
 		D168A3CE2025D3FF007EA6BA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D17562FC20287A98005A9BEB /* CategoryTableViewController.swift */,
 				D168A3BA2025AE30007EA6BA /* ToDoListViewController.swift */,
 			);
 			path = Controllers;
@@ -96,7 +97,6 @@
 		D168A3CF2025D411007EA6BA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D168A3CA2025D359007EA6BA /* ItemModel.swift */,
 				D17562F720284885005A9BEB /* DataModel.xcdatamodeld */,
 			);
 			path = Models;
@@ -182,9 +182,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D168A3CB2025D359007EA6BA /* ItemModel.swift in Sources */,
 				D17562F920284885005A9BEB /* DataModel.xcdatamodeld in Sources */,
 				D168A3BB2025AE30007EA6BA /* ToDoListViewController.swift in Sources */,
+				D17562FD20287A98005A9BEB /* CategoryTableViewController.swift in Sources */,
 				D168A3B92025AE30007EA6BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
